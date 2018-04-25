@@ -7,6 +7,8 @@
 # and that all assistance was correctly attributed in comments.  Additionally, I
 # agree to abide by the rules expressed in the CSIS Academic Honest Policy
 
+#I am doing this for the final class. 
+
 census <- read.csv('us_census.csv')
 contiguous <- census[!census$state %in% c('AK', 'HI', 'PR'),]
 
